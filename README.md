@@ -115,3 +115,8 @@ Check out the contributing guidelines
 * Poetry
 * Docker
 
+## Screenshots
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="100"/>
+</div>
+
