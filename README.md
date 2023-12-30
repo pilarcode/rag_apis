@@ -1,6 +1,11 @@
 # Rag 🤖💭
 Chatbot to answer questions about api services. 
 
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="800"/>
+</div>
+
+
 ## Data
 Api specification about pets.
 
@@ -115,10 +120,4 @@ Check out the contributing guidelines
 * Poetry
 * Docker
 
-## Screenshots
-<div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="600"/>
-</div>
-<div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="600"/>
-</div>
+
