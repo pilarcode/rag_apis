@@ -2,7 +2,7 @@
 Chatbot to answer questions about api services. 
 
 <div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="800"/>
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="1000"/>
 </div>
 
 
