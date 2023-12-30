@@ -119,4 +119,6 @@ Check out the contributing guidelines
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="600"/>
 </div>
-
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="600"/>
+</div>
