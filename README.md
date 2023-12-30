@@ -2,15 +2,24 @@
 Chatbot to answer questions about api services. 
 
 <div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer.png" width="1000"/>
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
 </div>
 
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_en.png" width="1000"/>
+</div>
 
-## 🟣 Usage
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_fr.png" width="1000"/>
+</div>
 
-To interact with the assistant, we recommend running the backend app and then opening one of the UIs developed in this project in your browser.
-e.g., http://localhost:8046
-
+## 🟣 Features
+- [x] Data ingestion from a local directory
+- [x] Load data into a vector store
+- [x] Similarity search to answer the question
+- [x] Generate the response to the user by using LLM and prompt engineering
+- [x] UI to interact with the smart assistant
+- [x] RAG 
 
 ## 🟣 Data 
 Api specification about pets.
@@ -109,15 +118,21 @@ docker push <your-registry-path>/mrag
 Replace `<your-registry-path>` with the path to your Container Registry.
 
 
+## 🟣 Run
+
+To interact with the assistant, we recommend running the backend app and then opening one of the UIs developed in this project in your browser.
+e.g., http://localhost:8046
+
 
 ## 🟣 Implemented with this tools 
 * LangChain
-* AzureOpenAI: LLM and embeddings
+* AzureOpenAI llm: gpt 3.5 turbo
+* AzureOpenAI embeddings: text-embedding-ada-002
 * Vector stores: Chroma, Faiss, DeepLake
 * Poetry
 * Docker
 * Jupyter notebooks
 * Python
 
-
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
