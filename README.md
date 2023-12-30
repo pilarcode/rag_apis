@@ -1,4 +1,8 @@
-# RAG
+# Rag 🤖💭
+Chatbot to answer questions about api services. 
+
+## Data
+Api specification about pets.
 
 ## Deployment
 
@@ -104,4 +108,10 @@ e.g., http://localhost:8046
 
 Check out the contributing guidelines
 
-## License
+## Tech 
+* LangChain
+* AzureOpenAI
+* Chroma, Faiss, DeepLake
+* Poetry
+* Docker
+
