@@ -3,6 +3,7 @@ Chatbot to answer questions about api services.
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
+  <p>This is the look and feel of the smart assistance and how generates responses to the users</p>
 </div>
 
 
@@ -131,16 +132,21 @@ e.g., http://localhost:8046
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="600"/>
+  <p>Login</p>
 </div>
+
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/greetings.png" width="1000"/>
+  <p>The user say hi and the smart assistant should offer assistance to the users</p>
 </div>
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_en.png" width="1000"/>
+  <p>The user ask a question about a service in English</p>
 </div>
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_fr.png" width="1000"/>
+  <p>The user ask a question about a service in French</p>
 </div>
