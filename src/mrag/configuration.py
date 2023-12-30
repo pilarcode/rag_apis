@@ -24,7 +24,6 @@ class Configuration:
         # vector database variables
         self.vector_index_path = os.environ["VECTOR_INDEX_PATH"]
         self.vector_store_type = os.environ["VECTOR_STORE_TYPE"]
-        self.force_create_index = os.environ["FORCE_CREATE_INDEX"]
 
         # azure open ai variables
         self.AZURE_EMBEDDINGS_DEPLOYMENT = os.environ["AZURE_EMBEDDINGS_DEPLOYMENT"]

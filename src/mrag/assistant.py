@@ -10,7 +10,7 @@ from langchain.output_parsers import PydanticOutputParser
 from mrag.configuration import Configuration
 from mrag.doc_loader import Loader
 from mrag.llm_instances import get_embeddings_instance, get_llm_instance
-from mrag.prompts import NOTE,LANGUAGE_PROMPT_TEMPLATE,QA_PROMPT_TEMPLATE
+from mrag.prompts import NOTE,LANGUAGE_PROMPT_TEMPLATE,ANSWER_PROMPT_TEMPLATE
 from mrag.retriever import RetrieverQA
 from mrag.utils import logger
 from mrag.vector_store import VectorIndex
@@ -23,7 +23,6 @@ log = logger.get_logger(__name__)
 class Assistant:
     docs_path: str
     specs_path: str
-    force_create_index: str
     vector_db_type: str
     vector_index_path: str
 
@@ -45,7 +44,6 @@ class Assistant:
             index_path=self.vector_index_path,
             vector_db_type=self.vector_db_type,
             embedding_function=self.embedding_function,
-            force_create_index=self.force_create_index,
         )
 
         log.debug("- LLM")
@@ -109,7 +107,7 @@ class Assistant:
 
         prompt = PromptTemplate(
             input_variables=["question","context","language"],
-            template=QA_PROMPT_TEMPLATE
+            template=ANSWER_PROMPT_TEMPLATE
         )
 
         context = self.retriever.get_relevant_documents(question)
@@ -133,7 +131,7 @@ class Assistant:
             completion_tokens = cb.completion_tokens
             total_cost = cb.total_cost
      
-        log.debug(f"prompt template: {QA_PROMPT_TEMPLATE}")
+        log.debug(f"prompt template: {ANSWER_PROMPT_TEMPLATE}")
         log.debug(f"question: {question}")
         log.debug(f"response: {response}")
         log.debug(f"language: {language}")

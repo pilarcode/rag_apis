@@ -19,7 +19,6 @@ log.info("- Load the configuration")
 config = Configuration()
 
 log.debug(f"specs path: {config.specs_path}")
-log.debug(f"force create index: {config.force_create_index}")
 log.debug(f"index path: {config.vector_index_path}")
 log.debug(f"vector store type: {config.vector_store_type}")
 log.debug(f"AZURE_EMBEDDINGS_DEPLOYMENT: {config.AZURE_EMBEDDINGS_DEPLOYMENT}")
@@ -34,7 +33,6 @@ log.info("- Create the assistant instance")
 qa_assistant = Assistant(
     docs_path=config.jsons_path,
     specs_path=config.specs_path,
-    force_create_index=config.force_create_index,
     vector_db_type=config.vector_store_type,
     vector_index_path=config.vector_index_path,
 )
