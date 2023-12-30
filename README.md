@@ -5,13 +5,6 @@ Chatbot to answer questions about api services.
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
 </div>
 
-<div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_en.png" width="1000"/>
-</div>
-
-<div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_fr.png" width="1000"/>
-</div>
 
 ## 🟣 Features
 - [x] Data ingestion from a local directory
@@ -134,5 +127,20 @@ e.g., http://localhost:8046
 * Jupyter notebooks
 * Python
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+## 🟣 Tests
 
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="600"/>
+</div>
+
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/greetings.png" width="1000"/>
+</div>
+
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_en.png" width="1000"/>
+</div>
+
+<div id="header" align="center">
+  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_fr.png" width="1000"/>
+</div>
