@@ -77,7 +77,7 @@ $ git push -uf origin main
 $ poetry update
 ```
 
-## 🟣 Deployment 🖱️
+## 🟣 Deployment 
 
 To generate the containerized app and run it on-prem or on a VM, follow these steps:
 
