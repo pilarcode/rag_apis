@@ -6,43 +6,17 @@ Chatbot to answer questions about api services.
 </div>
 
 
-## Data
+## 🟣 Usage
+
+To interact with the assistant, we recommend running the backend app and then opening one of the UIs developed in this project in your browser.
+e.g., http://localhost:8046
+
+
+## 🟣 Data 
 Api specification about pets.
 
-## Deployment
 
-To generate the containerized app and run it on-prem or on a VM, follow these steps:
-
-1. Build the Docker image:
-
-```bash
-docker build -t mrag .
-```
-
-2. Run the Docker container:
-
-```bash
-docker run -it -p 8046:8046 mrag
-```
-
-
-3. Tag the Docker image:
-
-```bash
-docker tag mrag <your-registry-path>/mrag
-```
-
-4. Push the Docker image to your cloud Container/Artifact Registry. i.e.:
-
-```bash
-docker push <your-registry-path>/mrag
-```
-
-Replace `<your-registry-path>` with the path to your Container Registry.
-
-
-
-## Development
+## 🟣 Development
 
 ### Installation in Dev
 To set up a development environment, follow these steps:
@@ -103,21 +77,47 @@ $ git push -uf origin main
 $ poetry update
 ```
 
-## Usage
+## 🟣 Deployment 🖱️
 
-To interact with the assistant, we recommend running the backend app and then opening one of the UIs developed in this project in your browser.
-e.g., http://localhost:8046
+To generate the containerized app and run it on-prem or on a VM, follow these steps:
+
+1. Build the Docker image:
+
+```bash
+docker build -t mrag .
+```
+
+2. Run the Docker container:
+
+```bash
+docker run -it -p 8046:8046 mrag
+```
 
 
-## Contributing
+3. Tag the Docker image:
 
-Check out the contributing guidelines
+```bash
+docker tag mrag <your-registry-path>/mrag
+```
 
-## Tech 
+4. Push the Docker image to your cloud Container/Artifact Registry. i.e.:
+
+```bash
+docker push <your-registry-path>/mrag
+```
+
+Replace `<your-registry-path>` with the path to your Container Registry.
+
+
+
+## 🟣 Implemented with this tools 
 * LangChain
-* AzureOpenAI
-* Chroma, Faiss, DeepLake
+* AzureOpenAI: LLM and embeddings
+* Vector stores: Chroma, Faiss, DeepLake
 * Poetry
 * Docker
+* Jupyter notebooks
+* Python
+
 
 
