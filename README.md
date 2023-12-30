@@ -83,7 +83,7 @@ $ git init .
 ```
 and link it to the cloud repo. e.g.:
 ```bash
-$ git remote add origin https://github.com/pilarcode/mrag.git
+$ git remote add origin https://github.com/pilarcode/rag_langchain.git
 $ git branch -M main
 $ git push -uf origin main
 ```
