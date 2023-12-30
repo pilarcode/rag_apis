@@ -19,7 +19,7 @@ Chatbot to answer questions about api services.
 - [x] Similarity search to answer the question
 - [x] Generate the response to the user by using LLM and prompt engineering
 - [x] UI to interact with the smart assistant
-- [x] RAG 
+- [x] Multi-language 
 
 ## 🟣 Data 
 Api specification about pets.
