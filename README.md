@@ -120,6 +120,7 @@ e.g., http://localhost:8046
 
 ## 🟣 Implemented with this tools 
 * LangChain
+* Gradio
 * AzureOpenAI llm: gpt 3.5 turbo
 * AzureOpenAI embeddings: text-embedding-ada-002
 * Vector stores: Chroma, Faiss, DeepLake
@@ -127,6 +128,7 @@ e.g., http://localhost:8046
 * Docker
 * Jupyter notebooks
 * Python
+
 
 ## 🟣 Tests
 
