@@ -46,7 +46,7 @@ poetry build
 4. Copy the whl file in the dist directory to the root directory
 
 ```bash
-cp dist/mrag-0.1.0-py3-none-any.whl  app/.
+cp dist/mrag-0.1.0-py3-none-any.whl  app/
 ```
 
 5. Edit the requirements.txt and install all the dependencies:
