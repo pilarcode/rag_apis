@@ -23,7 +23,6 @@ log = logger.get_logger(__name__)
 class Assistant:
     docs_path: str
     specs_path: str
-    vector_db_type: str
     vector_index_path: str
 
     def __post_init__(self):
@@ -42,7 +41,6 @@ class Assistant:
         self.vector_index = VectorIndex(
             docs,
             index_path=self.vector_index_path,
-            vector_db_type=self.vector_db_type,
             embedding_function=self.embedding_function,
         )
 

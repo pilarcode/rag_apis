@@ -123,7 +123,7 @@ e.g., http://localhost:8046
 * Gradio
 * AzureOpenAI llm: gpt 3.5 turbo
 * AzureOpenAI embeddings: text-embedding-ada-002
-* Vector stores: Chroma, Faiss, DeepLake
+* Vector stores: Chroma
 * Poetry
 * Docker
 * Jupyter notebooks

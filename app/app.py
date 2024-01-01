@@ -20,7 +20,6 @@ config = Configuration()
 
 log.debug(f"specs path: {config.specs_path}")
 log.debug(f"index path: {config.vector_index_path}")
-log.debug(f"vector store type: {config.vector_store_type}")
 log.debug(f"AZURE_EMBEDDINGS_DEPLOYMENT: {config.AZURE_EMBEDDINGS_DEPLOYMENT}")
 log.debug(f"AZURE_LLM_DEPLOYMENT: {config.AZURE_LLM_DEPLOYMENT}")
 log.debug(f"OPENAI_API_VERSION: {config.OPENAI_API_VERSION}")
@@ -33,7 +32,6 @@ log.info("- Create the assistant instance")
 qa_assistant = Assistant(
     docs_path=config.jsons_path,
     specs_path=config.specs_path,
-    vector_db_type=config.vector_store_type,
     vector_index_path=config.vector_index_path,
 )
 
