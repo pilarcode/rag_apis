@@ -1,5 +1,6 @@
 # Rag 🤖💭
 Chatbot to answer questions about api services. 
+TODO: Hacerlo conversacional
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
