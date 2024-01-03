@@ -25,7 +25,7 @@ class Loader:
     def __post_init__(self) -> None:
         """Post initialization"""
 
-        self.splitter = RecursiveCharacterTextSplitter(chunk_size=DEFAULT_CHUNK_SIZE, chunk_overlap=DEFAULT_OVERLAP)
+        self.splitter = RecursiveCharacterTextSplitter(chunk_size=DEFAULT_CHUNK_SIZE, chunk_overlap=DEFAULT_OVERLAP, length_function=len)
 
         if not os.path.exists(self.specs_path):
             raise ValueError(f"Invalid specs_path: {self.specs_path}")

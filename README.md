@@ -1,6 +1,6 @@
 # Rag 🤖💭
-Chatbot to answer questions about api services. 
-TODO: Hacerlo conversacional
+Conversational Chatbot to answer questions about api services. 
+
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
@@ -9,11 +9,10 @@ TODO: Hacerlo conversacional
 
 
 ## 🟣 Features
-- [x] Data ingestion from a local directory
-- [x] Load data into a vector store
-- [x] Similarity search to answer the question
+- [x] Data loading from a local directory to a vector store
+- [x] Retrieving Data by using similarity search
 - [x] Generate the response to the user by using LLM and prompt engineering
-- [x] UI to interact with the smart assistant
+- [x] Chat UI to interact with the smart assistant
 - [x] Multi-language 
 
 ## 🟣 Data 
