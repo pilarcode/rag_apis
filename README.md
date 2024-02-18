@@ -58,11 +58,6 @@ To interact with the assistant, open your browser. e.g., http://localhost:8046
 
 # Tests
 
-<div id="header" align="center">
-  <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/login.png" width="600"/>
-  <p>Login</p>
-</div>
-
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/greetings.png" width="1000"/>
