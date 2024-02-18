@@ -1,5 +1,5 @@
-# Rag 🤖💭
-Conversational Chatbot to answer questions about api services. 
+# QA chatbot
+Chatbot to answer questions about api services. 
 
 
 <div id="header" align="center">
