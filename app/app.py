@@ -61,4 +61,4 @@ chatbot = gr.ChatInterface(
 )
 
 if __name__ == "__main__":
-    chatbot.launch(server_name="0.0.0.0", server_port=UI_PORT, auth=("admin", "ai_2024"),favicon_path="assets/favicon.ico", auth_message=" Por favor inicia sesión 🔒")
+    chatbot.launch(server_name="0.0.0.0", server_port=UI_PORT)
