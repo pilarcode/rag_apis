@@ -20,13 +20,6 @@ config = Configuration()
 
 log.debug(f"specs path: {config.specs_path}")
 log.debug(f"index path: {config.vector_index_path}")
-log.debug(f"AZURE_EMBEDDINGS_DEPLOYMENT: {config.AZURE_EMBEDDINGS_DEPLOYMENT}")
-log.debug(f"AZURE_LLM_DEPLOYMENT: {config.AZURE_LLM_DEPLOYMENT}")
-log.debug(f"OPENAI_API_VERSION: {config.OPENAI_API_VERSION}")
-log.debug(f"CHUNK_SIZE: {config.CHUNK_SIZE}")
-log.debug(f"AZURE_OPENAI_ENDPOINT: {config.AZURE_OPENAI_ENDPOINT}")
-
-
 
 log.info("- Create the assistant instance")
 qa_assistant = Assistant(
