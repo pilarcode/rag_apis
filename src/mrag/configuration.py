@@ -27,6 +27,6 @@ class Configuration:
         # azure open ai variables
         self.AZURE_EMBEDDINGS_DEPLOYMENT = os.environ["AZURE_EMBEDDINGS_DEPLOYMENT"]
         self.AZURE_LLM_DEPLOYMENT = os.environ["AZURE_LLM_DEPLOYMENT"]
-        self.OPENAI_API_VERSION = os.environ["OPENAI_API_VERSION"]
+        self.AZURE_OPENAI_API_VERSION = os.environ["AZURE_OPENAI_API_VERSION"]
         self.CHUNK_SIZE = os.environ["CHUNK_SIZE"]
         self.AZURE_OPENAI_ENDPOINT = os.environ["AZURE_OPENAI_ENDPOINT"]
