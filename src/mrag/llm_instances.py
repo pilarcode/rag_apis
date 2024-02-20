@@ -64,25 +64,3 @@ def get_llm_instance(
         azure_deployment=azure_deployment, openai_api_version=openai_api_version, temperature=temperature
     )
     return llm_model
-
-
-client = AzureOpenAI(
-    api_key=OPENAI_API_KEY,
-    api_version=OPENAI_API_VERSION,
-    azure_endpoint=AZURE_OPENAI_ENDPOINT,
-)
-
-
-def get_embedding(text, model=AZURE_EMBEDDINGS_DEPLOYMENT):
-    """
-    Gets the embedding for a given text using the specified model.
-
-    Parameters:
-        text (str): The input text to generate the embedding for.
-        model (str, optional): The model to use for generating the embedding. Defaults to AZURE_EMBEDDINGS_DEPLOYMENT.
-
-    Returns:
-        str: The JSON representation of the embedding model dump.
-    """
-    response = client.embeddings.create(input=[text], model=model)
-    return response.model_dump_json(indent=2)
