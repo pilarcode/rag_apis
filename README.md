@@ -4,7 +4,7 @@ Chatbot to answer questions about api services.
 
 <div id="header" align="center">
   <img src="https://github.com/pilarcode/rag_langchain/blob/main/app/assets/question_answer_es.png" width="1000"/>
-  <p>This is the look and feel of the smart assistance and how generates responses to the users</p>
+ 
 </div>
 
 # Data 
